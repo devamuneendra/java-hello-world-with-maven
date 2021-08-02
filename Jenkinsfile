@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('extract') {
+      steps {
+        zip(zipFile: 'file', archive: true, dir: 'C:\\Drifters')
+      }
+    }
+
   }
 }
