@@ -9,7 +9,7 @@ pipeline {
 
     stage('clean') {
       steps {
-        echo 'Hello jenkins! good evening ((()))))********'
+        echo 'Hello jenkins! good evening ((()))))********eyu48r09rio'
       }
     }
 
