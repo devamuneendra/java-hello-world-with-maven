@@ -6,14 +6,15 @@ pipeline {
         bat 'mvn clean install'
       }
     }
+
     stage('clean') {
       steps {
-        echo "Hello World!"
+        echo 'Hello World!'
       }
     }
 
   }
-triggers {
+  triggers {
     pollSCM('* * * * *')
-  }  
+  }
 }
