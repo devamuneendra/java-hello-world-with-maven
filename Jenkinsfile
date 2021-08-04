@@ -8,4 +8,7 @@ pipeline {
     }
 
   }
+triggers {
+    pollSCM('* * * * *')
+  }  
 }
