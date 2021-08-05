@@ -13,9 +13,9 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('test') {
       steps {
-        echo 'hey you triggered pipeline automatically'
+        input(message: 'Do you want to Test?', id: 'Test')
       }
     }
 
