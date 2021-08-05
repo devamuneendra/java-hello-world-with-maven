@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('') {
+      steps {
+        echo 'hey you triggered pipeline automatically'
+      }
+    }
+
   }
 }
