@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Print') {
+      steps {
+        bat 'helloworld'
+      }
+    }
+
   }
 }
