@@ -9,7 +9,7 @@ pipeline {
 
     stage('Print') {
       steps {
-        bat 'echo "hello world"'
+        bat 'echo "hello world good evening"'
       }
     }
 
