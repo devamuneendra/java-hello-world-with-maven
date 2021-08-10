@@ -13,11 +13,5 @@ pipeline {
       }
     }
 
-    stage('test') {
-      steps {
-        ws(dir: 'C:/Users/edevpul/Desktop/linuxcommands')
-      }
-    }
-
   }
 }
