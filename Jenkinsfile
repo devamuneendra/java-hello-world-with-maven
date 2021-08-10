@@ -16,6 +16,7 @@ pipeline {
     stage('test') {
       steps {
         input(message: 'Do you want to Test?', id: 'Test')
+        ws(dir: 'C:\\Users\\edevpul\\Desktop\\linuxcommands')
       }
     }
 
