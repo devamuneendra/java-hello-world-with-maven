@@ -15,7 +15,7 @@ pipeline {
 
     stage('test') {
       steps {
-        ws(dir: 'C:\\Users\\edevpul\\Desktop\\linuxcommands')
+        ws(dir: 'C:/Users/edevpul/Desktop/linuxcommands')
       }
     }
 
