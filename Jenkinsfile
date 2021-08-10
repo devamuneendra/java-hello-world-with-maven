@@ -15,7 +15,7 @@ pipeline {
 
     stage('test') {
       steps {
-        echo 'hello master'
+        echo 'hello master good evening'
       }
     }
 
