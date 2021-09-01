@@ -1,7 +1,12 @@
-name: default
+name: drone
 kind: pipeline
 
 steps:
 - name: build
   commands:
     - echo "mvn clean install"
+    
+- name: test
+  commands:
+    - echo "mvn clean install"
+    
