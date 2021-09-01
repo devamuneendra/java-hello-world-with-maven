@@ -1,9 +1,9 @@
-kind: pipeline
-type: ssh
 name: default
 
-steps:
+kind: pipeline
+type: docker
 
+steps:
 - name: build
   commands:
     - bat 'mvn clean install'
