@@ -1,12 +1,9 @@
-name: drone
 kind: pipeline
+name: default
 
 steps:
-- name: build
-  commands:
-    - echo "mvn clean install"
-    
 - name: test
+  image: maven:3-jdk-10
   commands:
-    - echo "mvn clean install"
-    
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+  - mvn test -B
