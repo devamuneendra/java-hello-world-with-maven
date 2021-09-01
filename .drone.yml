@@ -4,4 +4,4 @@ kind: pipeline
 steps:
 - name: build
   commands:
-    - bat 'mvn clean install'
+    - echo "mvn clean install"
