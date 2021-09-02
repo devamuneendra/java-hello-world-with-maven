@@ -6,9 +6,5 @@ steps:
   image: maven:3-jdk-10
   commands:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-  - echo "hello"
-  
-- name: greeting
-  commands:
-  - echo hello world  
+  - echo hello 
   
