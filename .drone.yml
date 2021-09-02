@@ -8,3 +8,7 @@ steps:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
   - echo "hello"
   
+- name: greeting
+  commands:
+  - echo hello world  
+  
