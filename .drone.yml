@@ -2,8 +2,14 @@ kind: pipeline
 name: default
 
 steps:
-- name: test
+- name: build
   image: maven:3-jdk-10
   commands:
   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
   - mvn test -B
+  
+
+- name: test
+  commands:
+  - echo "hello"
+  
